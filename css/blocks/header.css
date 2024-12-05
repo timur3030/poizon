@@ -26,7 +26,6 @@
   padding: 0 2.13vw;
   line-height: 4.267vw;
   font-size: 3.2vw;
-  font-weight: 400;
   color: #fff;
 }
 
@@ -45,7 +44,6 @@
 
 .header__btn-text {
   font-size: 3.2vw;
-  font-weight: 400;
   text-transform: uppercase;
   color: #fff;
 }
