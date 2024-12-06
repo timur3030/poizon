@@ -32,10 +32,7 @@
   right: 3vw;
   top: 7vw;
   border-radius: 100%;
-  animation-name: spiner;
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation: spiner 30s infinite linear;
 }
 
 @keyframes spiner {
@@ -60,28 +57,42 @@
   text-transform: uppercase;
   color: #fff;
   border-radius: 8vw;
-  /* z-index: -1; */
-  /* -webkit-animation: scaleTo 1.3s linear infinite;
-  -webkit-animation: scaleTo-jsx-2532953803 1.3s linear infinite;
-  animation: scaleTo-jsx-2532953803 1.3s linear infinite; */
+  overflow: hidden;
+  position: relative;
 }
 
-/* .promo__img {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, auto);
-} */
-
-/* .promo__img img:nth-child(1) {
-  grid-column: 1 / 4;
+@keyframes slideme {
+  0% {
+    left: -30px;
+    margin-left: 0px;
+  }
+  30% {
+    left: 110%;
+    margin-left: 80px;
+  }
+  100% {
+    left: 110%;
+    margin-left: 80px;
+  }
 }
 
-.promo__img img:nth-child(2) {
-  grid-row: 2 / 3;
+.promo__btn:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 200px;
+  margin-left: 60px;
+  background: #fff;
+  opacity: 0.5;
+  position: absolute;
+  left: -40px;
+  top: -100px;
+  z-index: 1;
+  transform: rotate(45deg);
+  transition: all 0.1s;
+  animation-name: slideme;
+  animation-duration: 3s;
+  animation-delay: 0.05s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
-.promo__img img:nth-child(3) {
-  grid-row: 2 / 3;
-}
-.promo__img img:nth-child(4) {
-  grid-row: 2 / 3;
-} */
