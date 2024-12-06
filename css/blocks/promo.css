@@ -1,6 +1,6 @@
 .promo {
   margin-top: 14.1vw;
-  padding: 8vw 0;
+  padding: 8vw 0 15vw;
   background-color: #f1f1f1;
   color: #14151a;
   text-align: center;
@@ -22,16 +22,17 @@
 }
 
 .promo__img {
-  margin: 10vw 0;
+  padding: 12vw 0;
   position: relative;
 }
 
 .promo__img-original {
   position: absolute;
   right: 3vw;
+  top: 7vw;
   border-radius: 100%;
   animation-name: spiner;
-  animation-duration: 10s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
