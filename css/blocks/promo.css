@@ -1,11 +1,6 @@
 .promo {
   margin-top: 14.1vw;
   padding: 8vw 0;
-  /* background-image: url(../../img/bg.png);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; */
-  /* background-color: #252526; */
   background-color: #f1f1f1;
   color: #14151a;
   text-align: center;
@@ -15,11 +10,10 @@
   font-size: 10vw;
   text-transform: uppercase;
   line-height: 16vw;
-  letter-spacing: 0.00001vw;
 }
 
 .promo__descr {
-  margin: 4vw 0;
+  margin-top: 4vw;
   font-size: 4.2vw;
 }
 
@@ -27,30 +21,42 @@
   color: #01c2c3;
 }
 
+.promo__img {
+  margin: 10vw 0;
+  position: relative;
+}
+
+.promo__img-original {
+  position: absolute;
+  right: 3vw;
+  border-radius: 100%;
+  animation-name: spiner;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spiner {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .promo__btn {
+  width: 63vw;
+  height: 13vw;
   display: block;
-  margin: 8vw auto;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* column-gap: 2vw;
-  padding: 0 2vw; */
-  /* width: 19vw;
-  height: 6.4vw; */
   background: #01c2c3;
-  /* border-radius: 0.533vw; */
-  /* cursor: pointer; */
-
-  /* font-size: 3.2vw; */
   font-size: 4.7vw;
   text-transform: uppercase;
   color: #fff;
-
-  width: 63vw;
-  height: 13vw;
-  /* position: fixed;
-  bottom: 0;
-  left: 0; */
   border-radius: 8vw;
   /* z-index: -1; */
   /* -webkit-animation: scaleTo 1.3s linear infinite;
