@@ -1,5 +1,5 @@
 .promo {
-  margin-top: 12.267vw;
+  margin-top: 14.1vw;
   padding: 8vw 0;
   /* background-image: url(../../img/bg.png);
   background-position: center center;
@@ -12,16 +12,18 @@
 }
 
 .promo__title {
-  font-size: 11vw;
-  /* line-height: 10vw; */
+  font-size: 10vw;
+  text-transform: uppercase;
+  line-height: 16vw;
+  letter-spacing: 0.00001vw;
 }
 
-.promo__text {
-  margin-top: 4vw;
+.promo__descr {
+  margin: 4vw 0;
   font-size: 4.2vw;
 }
 
-.promo__text span {
+.promo__descr span {
   color: #01c2c3;
 }
 
@@ -44,8 +46,8 @@
   text-transform: uppercase;
   color: #fff;
 
-  width: 38.147vw;
-  height: 9.413vw;
+  width: 63vw;
+  height: 13vw;
   /* position: fixed;
   bottom: 0;
   left: 0; */
