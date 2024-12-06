@@ -1,5 +1,5 @@
 @import "reset.css";
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
 @import "blocks/header.css";
 @import "blocks/promo.css";
@@ -7,7 +7,7 @@
 @import "blocks/footer.css";
 
 * {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
