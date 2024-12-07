@@ -3,7 +3,8 @@
   padding: 8vw 0 15vw;
   background-color: #f1f1f1;
   color: #14151a;
-  /* text-align: center; */
+  text-align: center;
+  user-select: none;
 }
 
 .promo__title {
