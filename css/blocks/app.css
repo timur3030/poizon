@@ -1,5 +1,41 @@
 .app {
   padding: 10.667vw 0;
-  background-color: #1d1d1d;
-  color: #fff;
+  /* background-color: #1d1d1d; */
+  border-color: #fefefe;
+  /* color: #fff; */
+
+  color: #000;
+}
+
+.app__title {
+  font-size: 10vw;
+}
+
+.app__descr {
+  margin-top: 4vw;
+  font-size: 4.2vw;
+}
+
+.app__links {
+  display: flex;
+  column-gap: 3vw;
+  margin-top: 8vw;
+}
+
+.app__btn {
+  border: solid 1px #000;
+  border-radius: 8px;
+  color: #000;
+  width: 63vw;
+  height: 13vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2vw;
+  font-size: 4.7vw;
+  text-transform: uppercase;
+  border-radius: 3vw;
+  overflow: hidden;
+  position: relative;
 }
