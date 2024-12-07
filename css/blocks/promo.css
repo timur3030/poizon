@@ -3,14 +3,14 @@
   padding: 8vw 0 15vw;
   background-color: #f1f1f1;
   color: #14151a;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .promo__title {
   font-size: 10vw;
   text-transform: uppercase;
   line-height: 16vw;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .promo__descr {
