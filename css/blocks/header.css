@@ -1,16 +1,14 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0 4.53vw;
-  height: 14.1vw;
-  background: #14151a;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 99;
-  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 6.4vw;
+  background: #14151a;
 }
 
 .header__logo {
@@ -19,29 +17,35 @@
 }
 
 .header__logo-img {
-  width: 6.5vw;
-  height: 6.5vw;
+  width: 30px;
+  height: 30px;
 }
 
 .header__logo-text {
-  padding: 0 2.13vw;
-  line-height: 6vw;
-  font-size: 4.6vw;
+  padding: 0 10px;
+  font-size: 20px;
+  line-height: 20px;
   color: #fff;
 }
 
 .header__btn {
   display: flex;
   align-items: center;
-  column-gap: 2vw;
-  padding: 1vw 2.5vw;
-  background: #01c2c3;
-  border-radius: 0.533vw;
+  column-gap: 10px;
+  padding: 5px 10px;
+  background: #06c6c6;
+  border-radius: 3px;
   cursor: pointer;
+  transition: all 0.2s;
+}
+
+.header__btn:hover {
+  background: #07d5d5;
 }
 
 .header__btn-text {
-  font-size: 4.1vw;
+  font-size: 20px;
+  line-height: 20px;
   text-transform: uppercase;
   color: #fff;
 }
@@ -49,15 +53,13 @@
 .header__btn-burger {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  row-gap: 0.7vw;
+  row-gap: 4px;
 }
 
 .header__btn-burger span {
   display: block;
-  width: 5vw;
+  width: 22px;
   height: 2px;
   border-radius: 1px;
   background-color: #fff;
-  transition: all 0.2s;
 }
