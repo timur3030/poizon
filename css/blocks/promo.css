@@ -26,7 +26,7 @@
 .promo__products {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   row-gap: 8vw;
   margin: 10vw 0 8vw;
 }
