@@ -27,7 +27,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  row-gap: 8vw;
+  row-gap: 4vw;
   margin: 10vw 0 8vw;
 }
 
