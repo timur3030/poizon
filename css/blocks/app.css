@@ -52,7 +52,8 @@
   background-image: url(../../img/bg/bg.png);
   background-position: top right;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size:  cover; */
+  background-size:  200% 100%;
   background-color: #000;
 }
 
