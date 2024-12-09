@@ -44,25 +44,27 @@
 .new {
   position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  align-items: center;
   margin-top: 60px;
   min-height: calc(100svh - 60px);
-  padding: 12vw 6.4vw;
+  padding: 0 6.4vw 13vw;
   background-image: url(../../img/bg/bg.png);
   /* background-position: top right; */
   background-position: center;
   background-repeat: no-repeat;
-  background-size:  cover;
+  background-size: cover;
   /* background-size:  300% 100%; */
   background-color: #000;
 }
 .new a {
-  margin-top: 35%;
+  position: absolute;
+  bottom: 13vw;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .new p {
-  margin-top: 10%;
+  margin-top: 20px;
 }
 
 /* .new::before {
