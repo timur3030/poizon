@@ -1,24 +1,26 @@
 .app {
-  padding: 10.667vw 0;
-  /* background-color: #1d1d1d; */
+  padding: 8vw 6.4vw;
   border-color: #fefefe;
-  /* color: #fff; */
   color: #000;
 }
 
 .app__title {
-  font-size: 10vw;
+  font-size: 8vw;
+  text-transform: uppercase;
+  line-height: 14vw;
+  text-align: center;
 }
 
 .app__descr {
   margin-top: 4vw;
   font-size: 4.2vw;
+  text-align: center;
 }
 
 .app__links {
   display: flex;
   column-gap: 3vw;
-  margin-top: 8vw;
+  margin-top: 10vw;
 }
 
 .app__btn {
@@ -38,3 +40,58 @@
   overflow: hidden;
   position: relative;
 }
+
+.new {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 60px;
+  min-height: calc(100svh - 60px);
+  padding: 8vw 6.4vw;
+  background-image: url(../../img/bg/bg.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+}
+
+/* .new::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+} */
+
+.new h1 {
+  position: relative;
+  z-index: 99;
+  color: #fff;
+  font-size: 15vw;
+  line-height: 16vw;
+}
+
+.new h1 span {
+  color: #01c2c3;
+}
+
+.new p {
+  position: relative;
+  z-index: 99;
+  color: #fff;
+  text-align-last: left;
+}
+
+/* .background {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 30px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+} */
