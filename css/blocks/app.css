@@ -45,10 +45,10 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-end;
   margin-top: 60px;
   min-height: calc(100svh - 60px);
-  padding: 8vw 6.4vw;
+  padding: 10vw 6.4vw;
   background-image: url(../../img/bg/bg.png);
   /* background-position: top right; */
   background-position: center;
@@ -56,6 +56,13 @@
   background-size:  cover;
   /* background-size:  300% 100%; */
   background-color: #000;
+}
+.new a {
+  margin-top: 25%;
+}
+
+.new p {
+  margin-top: 10%;
 }
 
 /* .new::before {
