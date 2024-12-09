@@ -48,7 +48,7 @@
   margin-top: 60px;
   min-height: calc(100svh - 60px);
   padding: 0 6.4vw 13vw;
-  background-image: url(../../img/bg/test6.png);
+  background-image: url(../../img/bg/bg.png);
   /* background-position: top right; */
   background-position: center;
   background-repeat: no-repeat;
@@ -104,5 +104,5 @@
   grid-auto-rows: 1fr;
   gap: 30px;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.9);
 }
