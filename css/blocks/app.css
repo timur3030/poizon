@@ -49,7 +49,7 @@
   margin-top: 60px;
   min-height: calc(100svh - 60px);
   padding: 8vw 6.4vw;
-  background-image: url(../../img/bg/bg.png);
+  background-image: url(../../img/bg/bgtest.png);
   background-position: top right;
   background-repeat: no-repeat;
   background-size:  cover;
@@ -86,13 +86,13 @@
   text-align-last: left;
 }
 
-/* .background {
+.background {
   padding: 50px;
   display: grid;
-  grid-template-columns: repeat(11, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 1fr;
   grid-auto-rows: 1fr;
   gap: 30px;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.9);
-} */
+  background-color: rgba(0, 0, 0, 0.5);
+}
