@@ -45,6 +45,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 60px;
   min-height: calc(100svh - 60px);
   padding: 0 6.4vw 15vw;
@@ -79,6 +80,7 @@
   color: #fff;
   font-size: 15vw;
   line-height: 16vw;
+  text-align: center;
 }
 
 .new h1 span {
@@ -90,7 +92,7 @@
   z-index: 99;
   margin-top: 30px;
   color: #fff;
-  text-align-last: left;
+  text-align: center;
 }
 
 .background {
